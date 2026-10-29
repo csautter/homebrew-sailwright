@@ -10,23 +10,23 @@ class Sailwright < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/csautter/sailwright/releases/download/v0.21.0/sailwright_0.21.0_darwin_arm64.tar.gz"
-      sha256 "d1eee7edcc091e1a089dfc84b974025eba41a6e3465766c261a619172f51ef4a"
+      url "https://github.com/csautter/sailwright/releases/download/v0.22.0/sailwright_0.22.0_darwin_arm64.tar.gz"
+      sha256 "cdf2d7326aa6726a75fb3d43d7c86bd67a7c13c07e40b0feace3b514ef444be8"
     end
     on_intel do
-      url "https://github.com/csautter/sailwright/releases/download/v0.21.0/sailwright_0.21.0_darwin_amd64.tar.gz"
-      sha256 "83e163c9c622966f48279b85badb224b48cb30be52efc24390f5d40e740d6c42"
+      url "https://github.com/csautter/sailwright/releases/download/v0.22.0/sailwright_0.22.0_darwin_amd64.tar.gz"
+      sha256 "c027fd596a58253916b15c73367b3956d864a7dc2fd83cb3076f22f816ebc880"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/csautter/sailwright/releases/download/v0.21.0/sailwright_0.21.0_linux_arm64.tar.gz"
-      sha256 "9662adfe6bb192af087a6fc4cd8d7335971961bafd67aff3b392fa1f66655eb6"
+      url "https://github.com/csautter/sailwright/releases/download/v0.22.0/sailwright_0.22.0_linux_arm64.tar.gz"
+      sha256 "20d311240551aa4027337f8fffe7cd922e6756c03d402a3f6a9e7123dc313ae8"
     end
     on_intel do
-      url "https://github.com/csautter/sailwright/releases/download/v0.21.0/sailwright_0.21.0_linux_amd64.tar.gz"
-      sha256 "0e0d612ebe06beae8032a428d24a501a7156761344c23d2506809ee4e950a39c"
+      url "https://github.com/csautter/sailwright/releases/download/v0.22.0/sailwright_0.22.0_linux_amd64.tar.gz"
+      sha256 "fb88ab674d9be00e75ca3cd3024e1dbbd98f889a4268d98c1e97acca85070229"
     end
   end
 
