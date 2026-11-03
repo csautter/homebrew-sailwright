@@ -10,23 +10,23 @@ class SailwrightGateway < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/csautter/sailwright/releases/download/v0.25.0/sailwright-gateway_0.25.0_darwin_arm64.tar.gz"
-      sha256 "2f5251b81f4bb55370ff89ac4e04caf21254ced3fd79bc249835e7d25e542008"
+      url "https://github.com/csautter/sailwright/releases/download/v0.26.0/sailwright-gateway_0.26.0_darwin_arm64.tar.gz"
+      sha256 "d6ad3aa191ee3d51d66cc1bee98047c889908b33822319b6ce5c66934329ae82"
     end
     on_intel do
-      url "https://github.com/csautter/sailwright/releases/download/v0.25.0/sailwright-gateway_0.25.0_darwin_amd64.tar.gz"
-      sha256 "cf065b8c8c8b11e9fecebd05ccbd05f2b1eceb413a2d92e289dd6b5cf0824a1d"
+      url "https://github.com/csautter/sailwright/releases/download/v0.26.0/sailwright-gateway_0.26.0_darwin_amd64.tar.gz"
+      sha256 "ae78116c0fee547bbf0231c68ff34dc03269354e5022b9cf06367ee404e24df5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/csautter/sailwright/releases/download/v0.25.0/sailwright-gateway_0.25.0_linux_arm64.tar.gz"
-      sha256 "89b2bfa053b6094a6acc1c86832d2e402c16fda02c8c75de91bd1316d08b597e"
+      url "https://github.com/csautter/sailwright/releases/download/v0.26.0/sailwright-gateway_0.26.0_linux_arm64.tar.gz"
+      sha256 "5221a2d88c12c2529c0ac9f4327b99bfb56248fd7baabe22929d06c63cbeeb2c"
     end
     on_intel do
-      url "https://github.com/csautter/sailwright/releases/download/v0.25.0/sailwright-gateway_0.25.0_linux_amd64.tar.gz"
-      sha256 "b96708e6751adf344906806986571b3bd78b7db82a58f7436fc53306b68942db"
+      url "https://github.com/csautter/sailwright/releases/download/v0.26.0/sailwright-gateway_0.26.0_linux_amd64.tar.gz"
+      sha256 "d29dced32b585aa5c678b3176c8f5b15215a419d70052cdeb485a6ce955c8314"
     end
   end
 
